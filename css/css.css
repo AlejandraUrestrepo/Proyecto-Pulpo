@@ -1,0 +1,60 @@
+:root{
+
+    --dark:#16191c;
+    --dark-x:#1e2126;
+    --light:#ffffff;
+
+}
+
+body{
+    font-family: 'Spartan', sans-serif;
+    font-weight: 300;
+    color: var(--light);
+}
+
+
+.bg-dark{
+
+    background-color: var(--dark) !important;
+}
+
+.bg-dark-x{
+    background-color: var(--dark-x);
+}
+
+.form-control, .btn{
+    min-height: 3.125rem;
+    line-height: initial;
+}
+.img-1{
+    background-image: url("../imagenes/img1.jpg");
+    background-size: cover;
+    background-position:center;
+}
+
+.img-2{
+    background-image: url("../imagenes/img2.jfif");
+    background-size: cover;
+    background-position:center;
+}
+
+.img-3{
+    background-image: url("../imagenes/img3.jfif");
+    background-size: cover;
+    background-position:center;
+}
+
+.img-4{
+    background-image: url("../imagenes/pulpo.png");
+    background-size: cover;
+    background-position:center;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+a:hover{
+    color:var(--dark-x)
+}
